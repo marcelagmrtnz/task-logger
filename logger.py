@@ -22,6 +22,7 @@ def log_task(new: bool, filename: str, task: str, time:float, date, start_hour, 
     return None
 
 def main(args):
+    # Incomplete code. Will be completed in the future.
     '''
     if args.manual:
         log_task(args.new, args.file, args.manual[1], task_time, datetime.date.today(), hour, end_hour)
@@ -70,6 +71,6 @@ if __name__ == '__main__':
     arg_parser.add_argument('-n', '--new', action='store_true')
     # Specify file
     arg_parser.add_argument('-f', '--file', default='./log.txt')
-    # Manually add to log
+    # Manually add to log, not currently working
     #arg_parser.add_argument('-m', '--manual', nargs=2)
     main(arg_parser.parse_args())
