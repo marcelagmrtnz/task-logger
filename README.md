@@ -22,6 +22,3 @@ Total in seconds: 0.0
 Work completed:
 Task description...
 ```
-
-## Future Updates
-- Eventually the user will be able to specify the -m flag that will allow for manual task logging without running the timer.
