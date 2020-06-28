@@ -5,12 +5,16 @@ Simple command line app that tracks hours spent working on tasks in a basic, con
 - Python 3.7+
 
 ## Instructions for Use
+Run the following command to start the system.
 ```
 python3 logger.py [-f, --file filename] [-n, --new] [-m, --manual]
 ```
 - '-f' allows you to specify a file where the logged task should be appended to.
 - '-n' allows you to specify that the standard log file should be restarted.
 - '-m' allows you to manually add a task completed without having to time yourself. Note: This system does not currently support timespans over 24 hours.
+
+If not using manual mode, you will be prompted to stop the timer and log your task. You will also be given a chance to log multiple tasks.<br>
+If you do specify manual mode, you will be prompted to enter the range of time (in the format 00:00-00:00) and also the task description. You will also be given a chance to enter more than one task.
 
 
 ## System Output
