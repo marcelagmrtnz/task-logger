@@ -1,15 +1,16 @@
 # task-logger
-Simple command line app that tracks hours spent working on tasks in a basic, continous text file.
+Simple command line app that tracks hours spent working on tasks in a basic, continuous text file.
 
 ## System Requirements
 - Python 3.7+
 
 ## Instructions for Use
 ```
-python3 logger.py [-f, --file] [-n, --new]
+python3 logger.py [-f, --file filename] [-n, --new] [-m, --manual]
 ```
 - '-f' allows you to specify a file where the logged task should be appended to.
 - '-n' allows you to specify that the standard log file should be restarted.
+- '-m' allows you to manually add a task completed without having to time yourself. Note: This system does not currently support timespans over 24 hours.
 
 
 ## System Output

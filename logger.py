@@ -93,5 +93,5 @@ if __name__ == '__main__':
     # Specify file
     arg_parser.add_argument('-f', '--file', default='./log.txt', help='Using this flag lets you specify a file to output your log to. The default is log.txt.')
     # Manually add to log
-    arg_parser.add_argument('-m', '--manual', action='store_true', help='Using this flag allows you to manually add a completed task.')
+    arg_parser.add_argument('-m', '--manual', action='store_true', help='Using this flag allows you to manually add a completed task. This system does not currently support timespans over 24 hours.')
     main(arg_parser.parse_args())
